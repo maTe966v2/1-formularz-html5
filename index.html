@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="https://formspree.io/f/xvolrjqv" method="POST">
+            <label for="first-name">Imię:</label>
+            <input type="text" id="first-name" name="first-name" required />
+            <label for="surname">Nazwisko:</label>
+            <input type="text" id="surname" name="surname" required />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required />
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" required />
+            <p>Płeć:</p>
+            <label for="male">Mężczyzna:</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="female">Kobieta:</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="agreement"
+                >Zgadzam się na przetwarzanie moich danych osobowych:</label
+            >
+            <input type="checkbox" id="agreement" name="agreement" required />
+            <label for="message">Wiadomość:</label>
+            <textarea
+                placeholder="Wpisz swoją wiadomość"
+                name="message"
+                id="message"
+            ></textarea>
+            <input type="submit" value="Wyślij wiadomość" />
+        </form>
+    </body>
+</html>
+
+<!-- Stwórz formularz, który pozwoli na zapis uczestnika na szkolenie - pola:
+
+- imię
+- nazwisko
+- mail
+- telefon
+- wybór miasta (Kraków, Warszawa, Gdańsk) - select
+- płeć - radio
+- zgoda na dane osobowe - checkbox
+- wiadomość - textarea
+
+Zadanie wyślij za pomocą GitHub Pages.
+
+Podpowiedź przed wysłaniem zadania do sprawdzenia:
+- sprawdź dopasowanie labelek do pól formularza
+- sprawdź, czy formularz wysyła maile na Twój adres z wykorzystaniem serwisu https://formspree.io/
+- sprawdź poprawność składni w walidatorze W3C https://validator.w3.org/
+ -->
